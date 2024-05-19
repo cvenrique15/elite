@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Página Oscura de Hackeo</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const links = document.querySelectorAll('nav a');
+            const sections = document.querySelectorAll('main section');
+
+            function showSection(id) {
+                sections.forEach(section => {
+                    section.classList.remove('active');
+                });
+                document.querySelector(id).classList.add('active');
+            }
+
+            links.forEach(link => {
+                link.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const id = this.getAttribute('href');
+                    showSection(id);
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+    <div class="side-menu">
+        <h2>Opciones</h2>
+        <a href="#modificar">Modificar</a>
+        <a href="#eliminar">Eliminar</a>
+        <a href="#ajustar">Ajustar</a>
+    </div>
+    <header>
+        <h1>Bienvenido a la Zona Hacker</h1>
+    </header>
+    <div class="container">
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#servicios">Servicios</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+        <main>
+            <section id="inicio">
+                <h2>Inicio</h2>
+                <p>Este es el sitio perfecto para mostrar tus habilidades de hackeo.</p>
+            </section>
+            <section id="servicios">
+                <h2>Servicios</h2>
+                <p>Ofrecemos una variedad de <span class="highlight">servicios de seguridad informática</span> para proteger tus datos.</p>
+            </section>
+            <section id="contacto">
+                <h2>Contacto</h2>
+                <form action="#" method="post">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2024 Zona Hacker. Todos los derechos reservados.</p>
+        </footer>
+    </div>
+</body>
+</html>
+
+
+

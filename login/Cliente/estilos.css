@@ -1,0 +1,99 @@
+/* Estilos Generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1, header a {
+    margin: 0 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Estilos de la Tienda */
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.producto {
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+.producto form {
+    margin-top: 10px;
+}
+
+/* Estilos del Carrito */
+.productos-carrito {
+    margin-bottom: 20px;
+}
+
+.producto-carrito {
+    border: 1px solid #ccc;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.acciones {
+    margin-top: 20px;
+}
+
+/* Estilos del Icono de Carrito */
+.carrito-icono {
+    position: relative;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.carrito-icono img {
+    width: 40px;
+    height: 40px;
+}
+
+.carrito-cantidad {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Enlaces */
+.volver, .continuar, .pagar, .eliminar {
+    display: inline-block;
+    padding: 8px 12px;
+    margin-right: 10px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.volver:hover, .continuar:hover, .pagar:hover, .eliminar:hover {
+    background-color: #555;
+}

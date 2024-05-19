@@ -1,0 +1,182 @@
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+
+}
+
+.volver {
+    color: #fff;
+    text-decoration: none;
+    margin-top: 10px;
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #555;
+    border-radius: 5px;
+}
+
+/* Main Content Styles */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    margin-top: 0;
+    color: #000000;
+}
+
+.productos-carrito {
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+.producto-carrito {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    color: #000000;
+}
+
+.producto-carrito h3 {
+    margin-top: 0;
+    
+}
+
+.eliminar {
+    color: #fff;
+    background-color: #c0392b;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.eliminar:hover {
+    background-color: #e74c3c;
+}
+
+.acciones {
+    text-align: center;
+}
+
+.continuar, .pagar {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.continuar {
+    background-color: #3498db;
+}
+
+.pagar {
+    background-color: #2ecc71;
+}
+
+.continuar:hover, .pagar:hover {
+    opacity: 0.8;
+}
+/* Estilos para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+    background-image: url('fondo.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+
+
+.producto-carrito {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #fff; 
+}}
+main h2 {
+    color: #31a527;
+    text-align: center; 
+    padding: 10px; 
+    border: 1px solid #31a527; 
+    border-radius: 5px; 
+    box-shadow: 0 0 30px rgba(0, 0, 0, 1);
+}
+
+/* Estilos para el área de "Realizar Compra" */
+h2 {
+    color: #fff;
+    background-color: #31a527; 
+    padding: 10px; 
+    border-radius: 5px; 
+}
+body {
+    background-color: #f1c40f; 
+    color: #333; 
+    padding: 20px; 
+}
+
+h2 {
+    text-align: center;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"],
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #3498db; 
+    color: #fff; 
+    cursor: pointer; 
+}
+
+input[type="submit"]:hover {
+    background-color: #2980b9; 
+}
+
+.btn {
+    display: block;
+    width: 500px;
+    text-align: center; 
+    padding: 10px;
+    background-color: #31a527; 
+    color: #fff; 
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 0 auto; 
+}
+
+.btn:hover {
+    background-color: #555; 
+}
+
+
+
+
+
+
